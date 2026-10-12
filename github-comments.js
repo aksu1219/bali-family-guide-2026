@@ -8,15 +8,18 @@
   if(!config)return;
   const day=document.getElementById('day'),header=day.querySelector('.dayhead');
   const selector=document.createElement('section');selector.className='github-comment-selector';
-  selector.innerHTML='<h3>코멘트 작성</h3><label>코멘트를 남길 일정<select aria-label="코멘트를 남길 일정">'+labels.map((label,i)=>'<option value="'+i+'">'+label+'</option>').join('')+'</select></label><p>GitHub 로그인으로 작성합니다. 댓글은 가족의 모든 기기에 함께 표시됩니다.</p>';
+  selector.innerHTML='<h3>코멘트 작성</h3><div class="github-login-guide"><p><b>코멘트를 작성하려면 GitHub 로그인이 필요합니다.</b></p><a class="github-login-button" href="https://giscus.app/api/oauth/authorize">GitHub 로그인하고 코멘트 작성</a><p class="github-login-help">처음 연결할 때 Giscus 권한을 승인하면 이 페이지로 돌아옵니다.</p></div><label>코멘트를 남길 일정<select aria-label="코멘트를 남길 일정">'+labels.map((label,i)=>'<option value="'+i+'">'+label+'</option>').join('')+'</select></label><button class="github-comment-jump" type="button">선택한 일정의 댓글창으로 이동 ↓</button><p>댓글은 가족의 모든 기기에 함께 표시됩니다.</p>';
   header.after(selector);selector.querySelector('select').value=slot;
   selector.querySelector('select').onchange=e=>{slot=e.target.value;showThread();};
+  selector.querySelector('.github-comment-jump').onclick=()=>{document.querySelector('.github-comments-panel').scrollIntoView({behavior:'smooth',block:'start'});};
   showThread();
  }
  function showThread(){
   document.querySelectorAll('.github-comments-panel').forEach(n=>n.remove());
   const thread=config.threads[selected+'-'+slot];if(!thread)return;
   const url=new URL(location.href);url.searchParams.set('day',String(selected));url.searchParams.set('slot',slot);history.replaceState(null,'',url);
+  const redirect=new URL(url);redirect.searchParams.delete('giscus');redirect.hash='';
+  document.querySelector('.github-login-button').href='https://giscus.app/api/oauth/authorize?redirect_uri='+encodeURIComponent(redirect.href);
   const section=document.createElement('section');section.className='github-comments-panel';
   section.innerHTML='<h4>'+esc(labels[+slot])+' 코멘트</h4><p class="github-comments-note">댓글 작성 시 GitHub 계정명이 표시됩니다.</p><a class="action primary" href="'+esc(thread.url)+'#discussion-comment-form" target="_blank" rel="noopener noreferrer">GitHub에서 로그인·코멘트 작성 ↗</a><p class="github-comments-note">게시한 댓글은 이 일정에 연결된 GitHub 토론에 저장됩니다.</p>';
   const anchor=+slot===3?document.querySelector('.github-comment-selector'):document.querySelectorAll('#day .period')[+slot];anchor.append(section);
