@@ -10,7 +10,7 @@
  {route:'Power of Now Oasis 요가 · 메르타사리 해변',items:[{slot:'브런치 · 요가 후',place:'Genius Cafe Sanur · 메르타사리 해변',location:'Pantai Mertasari, Sanur',map:'Genius Cafe Sanur Mertasari Beach Bali',source:'https://geniuscafebali.com/menu/',menu:'Genius Zinger Burger(채식 버거) · 후무스 딥',kids:'버거는 소스의 매운 정도를 확인하고 나눠 먹기',movement:'요가 스튜디오 → 같은 메르타사리 해변 주변으로 도보 이동',reason:'요가 후 해변 동선을 이어 가기 좋아요. 간단한 아침 메뉴는 현장 메뉴판에서 선택하세요.'},{...fisherman,slot:'저녁 · 숙소에서 쉬는 날',menu:'생선구이 · 해산물 플래터',kids:'어린이 메뉴 선택 · 소스는 별도로 요청',movement:'안다즈 숙소 해변으로 도보 이동',reason:'이동을 줄이고 바닷가에서 식사해요. 저녁 운영 시간은 예약할 때 확인하세요.'}]},
  {route:'사누르 → 코마네카 앳 비스마 → 우붓 시내 산책 → 재즈바 선택',items:[{...seneng,slot:'늦은 점심 · 우붓 숙소 도착 후',menu:'나시고렝 아얌(닭고기 볶음밥) · 미고렝',kids:'볶음밥과 마르게리타 피자를 나눠 먹기',movement:'GrabXL 이동 후 숙소 안에서 식사',reason:'체크인과 오후 시내 산책 사이에 편하게 먹을 수 있어요.'},{...wayan,slot:'저녁 · 시내 산책 후, 재즈바 전',menu:'Prawns ala Ketut(새우 요리) · 파스타 또는 피자',kids:'피자·파스타 위주로 선택',movement:'우붓 시내 → Monkey Forest Road · 식사 후 재즈바로 도보 이동',reason:'Laughing Buddha Bar와 같은 몽키포레스트 로드 동선입니다. 식사는 기존 추천 시간인 18:30 전후로 계획하세요.'}]},
  {route:'메이슨 코끼리 체험 · 타로 → 우붓 숙소',items:[{slot:'점심 · 코끼리 체험 현장',place:'Mason Elephant Park · 파크 내 식사',location:'Taro · 메이슨 코끼리 파크',map:'Mason Elephant Park Taro Bali',source:'https://masonelephantpark.com/',menu:'Jumbo Wash Tour에 포함된 점심 · 음식만 포함',kids:'현장 제공 음식 중 맵지 않은 메뉴 선택',movement:'체험 장소 안에서 식사',reason:'첨부 확정서로 Jumbo Wash Tour와 점심(음식만) 포함을 확인했습니다. 음료는 포함 목록에 없으므로 별도 주문 조건을 확인하세요.'},{...seneng,slot:'저녁 · 우붓 복귀 후',menu:'마르게리타 피자 · 볼로네제 파스타',kids:'익숙한 피자·파스타로 편하게 식사',movement:'호텔 복귀 후 숙소 안에서',reason:'우붓 픽업 구간 08:30–09:00부터 이어지는 체험 뒤에는 추가 이동을 줄이는 선택을 추천해요.'}]},
- {route:'쿠킹 클래스 → 호텔 복귀 → 14:00 바투르산 지프 픽업',note:'쿠킹 클래스 종료 13:00과 로비 픽업 14:00 사이가 짧아, 중간에 외부 식당을 새로 들르는 일정은 피하는 편이 좋습니다.',items:[{slot:'점심 · 쿠킹 클래스에서',place:'Dewa Bab / Garlic Bali Cooking Class',location:'보내주신 예약 지도 지점',map:'Garlic Bali Cooking Class Ubud Bali',mapUrl:'https://www.google.com/maps/search/?api=1&query=Garlic%20Bali%20Cooking%20Class%20%7C%20Ubud%20Bali&query_place_id=ChIJldT4o5Q90i0Rugxl_I1jxuA',menu:'수업에서 만든 발리 요리 · 당일 실습 메뉴',kids:'아이들이 만든 음식 중 맵지 않은 요리와 밥',movement:'클래스 현장에서 식사 후 호텔로 복귀',reason:'수업 후 만든 음식을 먹는지, 식사가 상품에 포함되는지는 업체에 확인하세요. 필요하면 픽업 전 먹을 간식을 준비하세요.'},{...seneng,slot:'저녁 · 일몰 투어 복귀 후',menu:'나시고렝 아얌 · 포모도로 파스타',kids:'볶음밥 또는 토마토 파스타',movement:'바투르산 → 우붓 호텔 복귀 후 숙소 안에서',reason:'귀환 시간이 늦어지면 호텔에 마지막 주문 시간과 간단한 식사 준비를 미리 문의하세요. 투어 중 식사 정차가 가능하면 기사와 조정하세요.'}]},
+ {route:'쿠킹 클래스 → 호텔 복귀 → 14:00 바투르산 지프 픽업',note:'쿠킹 클래스 종료 13:00과 로비 픽업 14:00 사이가 짧아, 중간에 외부 식당을 새로 들르는 일정은 피하는 편이 좋습니다.',items:[{slot:'점심 · 쿠킹 클래스에서',place:'Dewa Bab / Garlic Bali Cooking Class',location:'보내주신 예약 지도 지점',map:'Garlic Bali Cooking Class Ubud Bali',mapUrl:'https://www.google.com/maps/search/?api=1&query=Garlic%20Bali%20Cooking%20Class%20%7C%20Ubud%20Bali&query_place_id=ChIJldT4o5Q90i0Rugxl_I1jxuA',menu:'수업에서 만든 발리 요리 · 당일 실습 메뉴',kids:'아이들이 만든 음식 중 맵지 않은 요리와 밥',movement:'클래스 현장에서 식사 후 호텔로 복귀',reason:'수업 후 만든 음식을 먹는지, 식사가 상품에 포함되는지는 업체에 확인하세요. 필요하면 픽업 전 먹을 간식을 준비하세요.'},{...seneng,slot:'저녁 · 투어 중 또는 복귀 후 협의',menu:'나시고렝 아얌 · 포모도로 파스타',kids:'볶음밥 또는 토마토 파스타',movement:'바투르산 → 우붓 호텔 복귀 후 숙소 안에서',reason:'확정서상 투어는 이동 포함 8~10시간입니다. 식사는 불포함이므로 HERWAN 가이드와 저녁 정차를 협의하거나, 늦은 복귀를 대비해 호텔 주문 가능 시간을 확인하세요.'}]},
  {route:'Alam Ubud 은공방 · 사얀 → 우붓 → 나이트 사파리',items:[{...wayan,slot:'점심 · 은공방 체험 후',menu:'발리·인도네시아 요리 · 파스타·피자',kids:'피자·파스타와 신선한 주스 중 선택',movement:'사얀 은공방 → 우붓 시내 복귀 후 방문 · 차량 또는 도보 경로 확인',reason:'체험 후 점심을 먹고 숙소에서 쉬었다가 사파리로 출발하는 동선이에요.'},{slot:'저녁 · 나이트 사파리 포함 식사',place:'Ranthambore · Taman Safari Bali',location:'사파리 파크 안 · Gianyar',map:'Ranthambore Taman Safari Bali',source:'https://overseas.balisafarimarinepark.com/attraction/night-safari-premium-48080',menu:'프리미엄 상품에 포함된 현장 저녁 식사',kids:'현장 메뉴 중 맵지 않은 음식 선택',movement:'18:00–21:00 사파리 일정 안에서 식사',reason:'예약하신 Night Safari Premium 공식 상품에 저녁이 안내되어 있습니다. 별도 저녁 식당을 예약하기보다 바우처의 식사 안내를 확인하세요.'}]},
  {route:'우붓 체크아웃 → 울루와뚜 B. 절벽 코스 → 덴파사르 국제선 터미널 I · KE432 11월 8일 23:50 출발 → 11월 9일 07:45 인천 도착',items:[{...seneng,slot:'조식 · 체크아웃 전',menu:'숙박 상품의 조식 메뉴 · 달걀·빵·과일 위주',kids:'투어 전 익숙한 음식으로 식사',movement:'숙소 안에서 식사 후 체크아웃',reason:'조식 포함 여부와 제공 장소는 예약한 숙박 상품 기준으로 확인하세요.'},{slot:'이른 저녁 · 공항 이동 전 후보',place:'Bawang Merah Beachfront Restaurant',location:'Kelan Beach · Jimbaran Bay',map:'Bawang Merah Beachfront Restaurant Kelan Beach Bali',source:'https://jimbaranbayrestaurant.com/menu/',menu:'생선구이 · 새우구이 · 밥',kids:'생선은 가시 제거, 매운 삼발은 별도로 요청',movement:'남부 투어 차량으로 이동 → 식사 후 공항 드랍',reason:'공항 인근 켈란 해변의 해산물 식당입니다. 남부 투어의 확정 코스에 포함된 곳은 아니므로 기사와 식사 정차·공항 도착 시간을 먼저 맞추세요.'}]}
  ];
@@ -19,7 +19,7 @@
  '0-1':'기내식 포함 여부 확인 필요 · 항공 예약 안내 확인',
  '0-2':'도착 후 야식은 별도 주문 · 호텔 운영 시간 확인',
  '1-0':'식사 포함 여부 확인 필요 · 요가 예약 안내 확인',
- '1-1':'식사 포함 여부 확인 필요 · 돌고래 체험 바우처 확인',
+ '1-1':'식사 불포함 · 조식·중식·석식 모두 별도 (확정서 기준)',
  '2-0':'점심 포함 · 현지식 점심·식수 (상품 안내 기준)',
  '3-0':'식사 포함 여부 확인 필요 · 요가 수업 안내 확인',
  '4-0':'식사 불포함 · 이동 후 별도 식사',
@@ -27,7 +27,8 @@
  '4-2':'식사비 별도 · 추천 식당에서 직접 주문·결제',
  '5-0':'점심 포함 · 음식만 포함, 음료 조건 별도 확인',
  '6-0':'식사 포함 여부 확인 필요 · 실습 음식 식사 제공 여부 업체 확인',
- '6-1':'식사 포함 여부 확인 필요 · 일몰 투어 예약 안내 확인',
+ '6-1':'식사 불포함 · 투어 전 커피·일몰 간식 포함, 카페 비용 별도',
+ '6-2':'식사 불포함 · 일몰 간식 제공, 저녁은 별도 준비',
  '7-0':'식사 포함 여부 확인 필요 · 은공방 예약 안내 확인',
  '7-2':'저녁 포함 · Night Safari Premium, Ranthambore 식사',
  '8-0':'조식 포함 여부 확인 필요 · 숙박 예약 조건 확인',
