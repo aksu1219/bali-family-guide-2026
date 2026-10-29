@@ -12,3 +12,5 @@
 }
 
 @media(max-width:760px){.icon-label{word-break:keep-all;overflow-wrap:break-word}.period h3 .icon-label{word-break:keep-all}.period .time .icon-label{word-break:keep-all}.tabs .icon-label{word-break:normal}}
+
+.shopping-pick{border-top:1px solid var(--line);padding:14px 0}.shopping-pick h4{margin:0 0 5px}.shopping-floor{font-size:12px;color:#147d7a;font-weight:700}.sanur-shopping>h4{font-size:16px}.shopping-walk{margin-top:14px}@media(max-width:760px){.sanur-shopping h4{font-size:15px;line-height:1.6}.sanur-shopping .details{line-height:1.8}.sanur-shopping .shopping-pick{padding:14px 0}.sanur-shopping .stay-links .action{flex:1 1 125px}}
